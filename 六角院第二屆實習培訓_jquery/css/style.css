@@ -1,0 +1,252 @@
+.fa-angle-up{
+	width: 48px;
+	height: 48px;
+	padding: 5px;
+	background: gray;
+	border: 1px solid gray;
+	border-radius: 50%;
+	color: white;
+	font-size: 46px;
+	text-align: center;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+}
+.fa-angle-up:hover{
+	cursor: pointer;
+	color: gray;
+	background: white;
+	border: 2px solid gray;
+}
+.wrap{
+	font-family: Gill Sans, sans-serif;
+	width: 1002px;
+	margin: auto;
+	font-weight: bolder;
+}
+.header{
+	margin-bottom: 4px;
+}
+.container{
+	margin-bottom: 25px;
+}
+.footer{
+	padding: 50px;
+	margin-bottom: 54px;
+	font-size: 16px;
+	display: inline;
+}
+
+.header-up {
+	height: 32px;
+	background:#f6f6f6;
+}
+.header-up ul{
+	float: right;
+	margin:8px 24px 8px 0px;
+}
+.header-up ul li{
+	display: inline-block;
+}
+.list-fb a, .list-fb img,.list-fb p,
+.list-tw a, .list-tw img,.list-tw p{
+	display: inline-block;
+}
+.list-fb a, .list-tw a{
+	text-decoration: none;
+	font-size:16px;
+}
+.list-fb a{
+	color: #4460a0;
+	border-right:1px solid #cccccc;
+	padding-right:14px;
+}
+.list-tw a{
+	color:#00aaec;
+	margin-left:10px;
+}
+
+.header-down{
+	width: 100%;
+	display:flex;
+	justify-content:space-between;
+}
+.header-down-logoimg h1 a{
+	background-image:url(../images/logo.png);
+	width:224px;
+	height:50px;
+	display: block;
+	text-indent:101%;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.header-down-menu ul{
+	height: 50px;
+	width: 274px;
+	margin: auto;
+	margin-right:14PX;
+	display: flex;
+	justify-content: space-around;
+}
+.header-down-menu ul li{
+	padding-top: 25px;
+	padding-bottom:25px;
+}
+.header-down-menu ul li a{
+	color: #44dab4;
+	text-decoration: none;
+}
+.header-down-menu ul li:hover{
+	border-bottom: 4px solid #44dab4;
+}
+
+.container-banner{
+	position: relative;
+	margin-bottom: 63px;
+}
+.container-banner .banner-txtbox{
+	height: 160px;
+	width: 1002px;
+	background: black;
+	opacity: 0.1;
+	position: absolute;
+	top: 86.5px;
+}
+.container-banner h2{
+	font-size:35px;
+	color: white;
+	line-height:45px;
+	position: absolute;
+	top:131.5px;
+	left: 25px;
+}
+
+.course{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 63px;
+}
+.course .item{
+	box-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	margin: auto;
+	width: 303px;
+	height: 311px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+.example-image-link .item .item-img{
+	margin-top: 30px;
+}
+.example-image-link .item-txt h2{
+	font-size: 19px;
+}
+.example-image-link .item-txt p{
+	font-size: 15px;
+	margin: 4px 20px 0px 20px;
+	line-height: 20px;
+	text-align: justify;
+}
+.item-txt ul{
+	margin-left: 40px;
+}
+.item-txt ul li{
+	list-style-type: disc;
+	text-align: left;
+	margin-top: 4px;
+}
+
+.tablebox{
+	margin-bottom: 61px;
+}
+.tablebox .table{
+	width: 843px;
+	margin: auto;
+}
+.table th{
+	background: #f7f7f7;
+	text-align: left;
+	margin-left: 2px;
+}
+.table th,td{
+	font-size: 17px;
+	border-top: 1px solid #f7f7f7;
+	border-bottom: 1px solid #f7f7f7;
+	padding: 10px 15px;
+}
+.table tr .text-66cab1{
+	color: #66cab1;
+}
+
+
+.form{
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	font-size: 16px;
+}
+
+.formbox{
+	background:linear-gradient(#00654c,#609772);
+}
+.formbox h2{
+	color: white;
+	font-size: 20px;
+	padding-top:40px;
+	margin-bottom:32px;
+	text-align: center;
+	line-height:30px;
+}
+.form .formleft textarea{
+	width: 450px;
+	height: 245px;
+}
+
+.form .formreight{
+	display: flex;
+	flex-direction: column;
+}
+.form .formreight .label-text{
+	color: white;
+	padding-bottom: 5px;
+}
+.form .formreight .textbox{
+	width: 462px;
+	font-size: 16px;
+	padding: 6px 0px 6px 6px;
+	margin-bottom: 13px;
+}
+.form .formreight .but{
+	color: white;
+	font-size:15px;
+	background: #00cc99;
+	border:1px solid #00cc99;
+	width: 72px;
+	height: 34px;
+	margin-top: 10px;
+	cursor: pointer;
+	align-self: flex-end;
+}
+.form .formreight .but:hover{
+	background: #00654c;
+	border:1px solid #00654c;
+}
+
+
+.footer .footer-img{
+	float: left;
+}
+.footer .footer-text{
+	float: right;
+}
+.footer p{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.footer-text p span{
+	color: red;
+}
